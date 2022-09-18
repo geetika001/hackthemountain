@@ -159,6 +159,14 @@ section {
   color: #fff;
   font-size: 6rem;
 }
+.search-form #close-menu {
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 6rem;
+}
 
 .search-form #close-search:hover {
   color: #219150;
@@ -283,7 +291,7 @@ section {
 .category .box-container .box img {
   height: 20rem;
   width: 20rem;
-  border-radius: 50%;
+  border-radius: 20%;
   margin-bottom: 1rem;
 }
 
@@ -358,6 +366,7 @@ section {
   overflow: hidden;
   height: 30rem;
   width: 100%;
+  border-radius: 32px;
 }
 
 .shop .slide .image img {
@@ -465,7 +474,7 @@ section {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: .5rem;
+  border-radius: 5.5rem;
 }
 
 .packages .box-container .box .content {
@@ -610,7 +619,7 @@ section {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: .5rem;
+  border-radius: 5.5rem;
 }
 
 .blogs .slide .icons {
