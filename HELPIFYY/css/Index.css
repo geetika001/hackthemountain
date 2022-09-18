@@ -34,6 +34,7 @@ html::-webkit-scrollbar-thumb {
 
 section {
   padding: 5rem 9%;
+  background-color:rgb(214 239 214);
 }
 
 .btn {
@@ -74,8 +75,8 @@ section {
           align-items: center;
 }
 
-.header.active {
-  background: #fff;
+.header {
+  background: #ffc107;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -424,7 +425,7 @@ section {
 }
 
 .packages {
-  background: #eee;
+  background: rgb(213, 243, 213);
 }
 
 .packages .box-container {
@@ -873,7 +874,8 @@ section {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-} */
+  /* background-color: #219150; */
+} 
 
 .centre{
   position: absolute;
@@ -984,6 +986,7 @@ section {
   background: #ffc107;
   position: absolute;
   margin: auto;
+
   padding-left: 20px;
   padding-bottom: 0px;
   /* margin-top: 50px; */
