@@ -975,3 +975,35 @@ section {
   font-weight: 600;
 }
 
+
+
+.centre a{
+  /* display: flex; */
+  height: 30px;
+  width: 80px;
+  background: #ffc107;
+  position: absolute;
+  margin: auto;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  /* margin-top: 50px; */
+  
+  padding-top: 2px;
+  /* padding: 7px; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  place-items: center;
+  font-family: "poppins",sans-serif;
+  color: #000;
+  font-weight: 1000;
+  text-decoration: none;
+  letter-spacing: 3px;
+  border-radius: 5px ;
+
+
+
+
+
+ }
